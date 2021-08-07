@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pangolin&display=swap');
+
+
+@font-face {
+
+    font-family: 'android';
+    src: url('../fonts/idroid.otf');
+    font-weight: normal;
+}
+
+* {
+margin: 0px;
+padding: 0px;
+
+}
+:root {
+    --cor1: #844137;
+    --cor1escura: #4b221b;
+    --cor2: #FABE9D;
+    --cor3: #D3FACC;
+    --cor4: #7FAD70;
+    --cor5: #faf5f5;
+    --cor6: #355729;
+    --cor7: #0e160b;
+    --cor8: #e6e6e6;
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'idroid.otf', cursive;
+    --font-peso2: 'Pangolin', cursive;
+}
+
+
+
+body {
+background-color: var(--cor3);
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+
+background-image: linear-gradient(to bottom, var(--cor3),var(--cor6));
+padding: 20px 10px 50px 10px;
+margin: auto;
+}
+
+picture img{
+    margin: auto;
+    display: block;
+}
+
+nav {
+background-color: var(--cor6);
+padding: 22px;
+box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.349);
+text-align: center;
+
+}
+ 
+nav > a {
+    text-decoration: none;
+    color: var(--cor5);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+    height: 2px;
+    
+}
+
+nav > a:hover {
+    color: var(--cor7);
+    background-color: var(--cor4);
+
+    }
+a.voltar {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+a:visited {
+text-decoration: darkred;
+}
+
+
+
+a:active {
+       color: gold;
+        }
+
+a.externo::after {
+content: '\00A0\1F517';
+
+}
+main { 
+    background-color: var(--cor5);
+    padding: 20px;
+    max-width: 700px;
+    min-width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+}  
+main p{
+    font-family: 'Pangolin';
+    margin: 20px 0px;
+    line-height: 1.5em;
+}
+
+main a {
+text-decoration: none;
+font-weight: bold;
+color: var(--cor6);
+
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
+
+aside.boxvideo {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    width: 80%;
+    background-color: var(--cor8);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.315);
+}
+
+div.videoladoces{
+    margin: 0px;
+    margin-bottom: 40px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 70%;
+    
+}
+div.videoladoces > iframe {
+
+position: absolute;
+top: 5%;
+left: 20%;
+width: 60%;
+height: 100%;
+}
+
+div.videoinspire{
+    margin: 0px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 80%;
+    
+}
+div.videoinspire > iframe {
+
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    width: 50%;
+    height: 95%;
+}
+
+div.videolab{
+    margin: 0px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 100%;
+    
+}
+div.videolab > iframe {
+
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    width: 75%;
+    height: 90%;
+}
+
+
+div.videoabelha{
+    margin: 0px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 50%;
+    
+}
+div.videoabelha > iframe {
+
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    width: 85%;
+    height: 90%;
+}
+
+
+img.perfil_centralizada {
+display: block;
+max-width: 350px;
+margin: auto;
+}
+
+ /*       
+a::before {content: '♧  ';}
+
+a::after {content: '  ♧';}
+*/
+
+img { 
+
+max-width: 100%;
+}
+
+
+h1 { 
+    color: #1D3759;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3em;
+    text-align: center;
+    margin: 2px;
+}
+
+h2#quemsoueu { 
+    text-align: center;
+}
+
+h2 {
+    color:var(--cor1escura);
+    font-family: 'Pangolin', cursive;
+    font-size: 2em;
+    padding-top:30px ;
+}
+
+h3 {
+    color: #1D3759;
+    font-family: 'Pangolin', cursive;
+    font-size: 1.5em;
+}
+
+aside > ul.trabalhos {
+list-style-position: inside;
+columns: 2;
+}
+
+ul {
+    list-style-position: inside;
+
+    }
+
+li{
+    font-family: 'Pangolin';
+
+}
+
+
+.destaque {color: rgb(87, 22, 11);
+            font-weight: bold;}
+
+
+div.menuprincipal{
+background-color: tomato;
+padding: 7px;
+
+
+}
+div.menubotao { display: inline-block;
+    background-color: turquoise;
+    
+    text-align: center;
+    height: 20px;
+    width: auto;
+    border-width: 2px;
+    padding: 20px;
+    margin: 0px;
+    outline: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.555);
+    border-radius: 4px;
+            }
+
+div:hover {
+    background-color: blanchedalmond;
+}
+
+div > xx  {
+    display: none;
+}
+
+div:hover > xx  {
+    display: block;
+}
+
+footer {
+    background-color: var(--cor6);
+    color: var(--cor5);
+    text-align: center;
+    padding: 10px;
+    height: 20px;
+    margin: auto;
+    font-size: 0.8em;
+    }
+    
