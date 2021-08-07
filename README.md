@@ -1,2 +1,3 @@
 # Site Monike Pereira
- Primeiro repositorio site monike
+ Primeiro repositório site monike
+Repositório criado durante uma aula ao vivo.
