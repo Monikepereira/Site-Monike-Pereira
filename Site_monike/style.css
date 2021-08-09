@@ -2,9 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pangolin&display=swap');
 
+@import url('https://use.typekit.net/xgs2lux.css');
+
+
 
 @font-face {
-
+    font-family: marvin, sans-serif;
     font-family: 'android';
     src: url('../fonts/idroid.otf');
     font-weight: normal;
@@ -232,7 +235,7 @@ h2#quemsoueu {
 
 h2 {
     color:var(--cor1escura);
-    font-family: 'Pangolin', cursive;
+    font-family: marvin, sans-serif;
     font-size: 2em;
     padding-top:30px ;
 }
